@@ -1,0 +1,5 @@
+$ cat .gitignore
+nbproject/
+application/logs/
+application/cache/
+*~

@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /public/
+
+User-agent: Yandex
+Disallow: /admin/
+Disallow: /public/
+
+Host: www.host.ru
