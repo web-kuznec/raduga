@@ -16,7 +16,6 @@ class Controller_Ajax_Auth extends Controller_JSON
         {
             $this->_user = $this->request->post('username');
             $this->_pass = $this->request->post('password');
-            $this->_remember = $this->request->post('remember');
 
             $post = Validation::factory($this->request->post());
             $post->rule(TRUE, 'not_empty');

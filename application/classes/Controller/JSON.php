@@ -1,6 +1,5 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-require APPPATH.'classes/Include/Push.php';
 class Controller_JSON extends Controller
 {
     public $_error = array();
